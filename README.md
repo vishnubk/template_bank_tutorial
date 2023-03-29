@@ -3,14 +3,16 @@
 Template-Bank Pipeline for Compact Binary Pulsar Searches
 This repo is a wrapper to the Template-Bank Pipeline, a powerful tool to search for compact binary pulsars. This pipeline is based on the works of Messenger (2008), Harry (2009), Knispel (2011), Allen (2013), and Balakrishnan (2021). It is designed to find short orbital period binaries that may not be detected with acceleration or jerk searches, typically used as a second step after an acceleration search.
 
+Original Repo: https://github.com/vishnubk/5D_Peasoup
+
 Features
 
 
 Searches for compact binary pulsars coherently across 3 Keplerian parameters for circular orbit binaries and 5 Keplerian parameters for elliptical orbit binaries.
 
-This is a C++ Cuda GPU Pulsar Search Pipeline and you will need access to Nvidia GPUs to use this. This pipeline has borrowed a lot of code from Peasoup written by Ewan Barr (MPIfR). You can find the original repo here that does an 1-D acceleration search. https://github.com/ewanbarr/peasoup
+The main code is a C++ Cuda GPU Pulsar Search Pipeline and you will need access to Nvidia GPUs to use it. This pipeline has borrowed a lot of code from Peasoup written by Ewan Barr (MPIfR). You can find the original repo here that does an 1-D acceleration search. https://github.com/ewanbarr/peasoup
 
-This repo is a work in progress. Eventhough the entire code works, I still need to add support for segmented searches and slurm commands to split the jobs in a compute node. The original repo which is well tested can be found here: https://github.com/vishnubk/5D_Peasoup
+This repo is a work in progress. Eventhough the entire code works, I still need to add support for segmented searches and slurm commands to split the jobs in a compute node. The original repo (5D_Peasoup)  is well tested and can be found above.
 
 Getting Started
 
