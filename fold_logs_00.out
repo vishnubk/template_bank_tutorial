@@ -1,0 +1,53 @@
+
+
+        Pulsar Raw-Data Folding Search Routine
+ Used for DM, Period, and P-dot tweaking of PSR candidates.
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '/hercules/scratch/vishnu/template_bank_tutorial/2012-04-12-16:27:35.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1382
+    Num of channels = 1024
+    Sample time (s) = 6.4e-05       
+     Spectra/subint = 2400
+   Total points (N) = 67518464
+     Total time (s) = 4321.181696   
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0    67518464           0  56029.68582175925985
+
+
+WARNING!!!:  I don't recognize the observatory (Fake)!
+                 Defaulting to the Geocenter for TEMPO.
+Folding a 1194.21ms_Cand candidate.
+
+Output data file is 'G010.5+02.9_3D_Peasoup_fold_candidate_id_0_1194.21ms_Cand.pfd'.
+Output plot file is 'G010.5+02.9_3D_Peasoup_fold_candidate_id_0_1194.21ms_Cand.pfd.ps'.
+Best profile is in  'G010.5+02.9_3D_Peasoup_fold_candidate_id_0_1194.21ms_Cand.pfd.bestprof'.
+
+Folding (topo) epoch  (MJD)  =  56029.685821759260
+Data pt duration (dt)   (s)  =  6.4e-05
+Total number of data points  =  67430400
+Number of profile bins       =  64
+Folding period          (s)  =  1.194207516812
+Folding frequency      (hz)  =  0.837375402451
+Orbital period          (s)  =  24924.57042
+a*sin(i)/c (x)     (lt-sec)  =  7.215884686
+Eccentricity                 =  0
+Longitude of peri (w) (deg)  =  0
+Epoch of periapsis    (MJD)  =  56029.50226639936
+True starting fraction       =  0
+Will search 385 DMs from 0.000 to 4839.339 (ddm = 12.5697)
+
+Starting work on '2012-04-12-16:27:35.fil'...
+
+  Folded 0 points of 67430400  Folded 1053600 points of 67430400  Folded 2107200 points of 67430400  Folded 3160800 points of 67430400  Folded 4214400 points of 67430400  Folded 5268000 points of 67430400  Folded 6321600 points of 67430400  Folded 7375200 points of 67430400  Folded 8428800 points of 67430400  Folded 9482400 points of 67430400  Folded 10536000 points of 67430400  Folded 11589600 points of 67430400  Folded 12643200 points of 67430400  Folded 13696800 points of 67430400  Folded 14750400 points of 67430400  Folded 15804000 points of 67430400  Folded 16857600 points of 67430400  Folded 17911200 points of 67430400  Folded 18964800 points of 67430400  Folded 20018400 points of 67430400  Folded 21072000 points of 67430400  Folded 22125600 points of 67430400  Folded 23179200 points of 67430400  Folded 24232800 points of 67430400  Folded 25286400 points of 67430400  Folded 26340000 points of 67430400  Folded 27393600 points of 67430400  Folded 28447200 points of 67430400  Folded 29500800 points of 67430400  Folded 30554400 points of 67430400  Folded 31608000 points of 67430400  Folded 32661600 points of 67430400  Folded 33715200 points of 67430400  Folded 34768800 points of 67430400  Folded 35822400 points of 67430400  Folded 36876000 points of 67430400  Folded 37929600 points of 67430400  Folded 38983200 points of 67430400  Folded 40036800 points of 67430400  Folded 41090400 points of 67430400  Folded 42144000 points of 67430400  Folded 43197600 points of 67430400  Folded 44251200 points of 67430400  Folded 45304800 points of 67430400  Folded 46358400 points of 67430400  Folded 47412000 points of 67430400  Folded 48465600 points of 67430400  Folded 49519200 points of 67430400  Folded 50572800 points of 67430400  Folded 51626400 points of 67430400  Folded 52680000 points of 67430400  Folded 53733600 points of 67430400  Folded 54787200 points of 67430400  Folded 55840800 points of 67430400  Folded 56894400 points of 67430400  Folded 57948000 points of 67430400  Folded 59001600 points of 67430400  Folded 60055200 points of 67430400  Folded 61108800 points of 67430400  Folded 62162400 points of 67430400
