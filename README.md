@@ -9,7 +9,7 @@ Features
 Searches for compact binary pulsars coherently across 3 Keplerian parameters for circular orbit binaries and 5 Keplerian parameters for elliptical orbit binaries.
 This is a C++ Cuda GPU Pulsar Search Pipeline and you will need access to Nvidia GPUs to use this. This pipeline has borrowed a lot of code from Peasoup written by Ewan Barr (MPIfR). You can find the original repo here that does an 1-D acceleration search. https://github.com/ewanbarr/peasoup
 
-This repo is a work in progress. Eventhough the entire code works, I still need to add support for segmented searches and slurm commands to split the jobs in a compute node. 
+This repo is a work in progress. Eventhough the entire code works, I still need to add support for segmented searches and slurm commands to split the jobs in a compute node. The original repo which is well tested can be found here: https://github.com/vishnubk/5D_Peasoup
 
 Getting Started
 
